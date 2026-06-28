@@ -50,13 +50,13 @@ The target variable is right-skewed. A log transformation was applied to normali
 
 OverallQual, GrLivArea, GarageCars, and TotalBsmtSF show the strongest correlations with SalePrice.
 
-![Correlation Matrix](images/correlation_matrix.png)
+![Correlation Matrix](images/correlation_heatmap.png)
 
 ### GrLivArea vs SalePrice
 
 Clear positive linear relationship. Two outliers (large area, low price) were removed during preprocessing.
 
-![GrLivArea vs SalePrice](images/grliv_vs_saleprice.png)
+![GrLivArea vs SalePrice](images/grlivarea_vs_saleprice.png)
 
 ### Model Comparison
 
